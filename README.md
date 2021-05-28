@@ -1,4 +1,6 @@
 # Create Issue Action
+[![Test Workflow](https://github.com/buluma/create-issue-action/actions/workflows/test.yaml/badge.svg)](https://github.com/buluma/create-issue-action/actions/workflows/test.yaml)
+
 This will let you create an issue based on user input from your GitHub Workflow
 
 ## Inputs
@@ -15,7 +17,7 @@ This will let you create an issue based on user input from your GitHub Workflow
 
 ## Usages
 ```yaml
-- uses: nashmaniac/create-issue-action@v1.1
+- uses: buluma/create-issue-action@v2.0.0
   name: Create Issue Action
   with:
     title: Build Failed
